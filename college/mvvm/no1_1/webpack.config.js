@@ -2,18 +2,13 @@ const path = require('path');
 const webpack = require('webpack');
 
 const HTMLWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-
-const extractSass = new ExtractTextPlugin({
-  filename: 'css/[name].[hash].css',
-  allChunks: true,
-  disable: !process.env.NODE_ENV === 'production'
-});
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   entry: {
     index: './src/app.js',
-    vendor: ['babel-polyfill']
+    vendors: ['babel-polyfill', 'san']
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -31,20 +26,20 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: extractSass.extract({
-          use: [
-            {
-              loader: 'css-loader'
-            },
-            {
-              loader: 'postcss-loader',
-              options: {
-                plugins: [require('postcss-cssnext')]
-              }
+        use: [
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: [require('postcss-cssnext')]
             }
-          ],
-          fallback: 'style-loader'
-        })
+          },
+          {
+            loader: 'style-loader'
+          }
+        ]
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -70,13 +65,19 @@ module.exports = {
       minify: {
         collapseWhitespace: true
       }
-    }),
-    extractSass,
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      filename: 'js/vendor.js'
     })
-  ]
+  ],
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendors: {
+          name: 'vendors',
+          chunks: 'initial',
+          minChunks: 2
+        }
+      }
+    }
+  }
 };
 
 if (process.env.NODE_ENV === 'production') {
@@ -88,14 +89,12 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: JSON.stringify('production')
       }
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
-      compress: {
-        warnings: false
-      }
-    }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
     })
   ]);
+
+  module.exports.optimization = Object.assign({}, module.exports.optimization, {
+    minimizer: [new UglifyJsPlugin()]
+  });
 }
