@@ -6,7 +6,7 @@
 
 |课程名称      |预览            |
 |-------------|----------------|
-|[课程系列引导及准备工作](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no1_1)      |[查看](https://pwcong.github.io/IFE2018-EXAMS/college/mvvm/no1_1/index.html)     |
+|[课程系列引导及准备工作](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no1_1)      |[查看](https://pwcong.github.io/IFE2018-EXAMS/college/mvvm/no1_1/dist/index.html)     |
 
 
 ## 设计师学院
