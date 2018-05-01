@@ -15,3 +15,4 @@
 |------------------------------|----------------------------------------------------------------------------------|
 |[制作一个简单的菜单动画效果](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/designer/no1)      |[查看](https://pwcong.github.io/IFE2018-EXAMS/college/designer/no1/index.html)     |
 |[初步接触 CSS 2D 变形](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/designer/no2)      |[查看](https://pwcong.github.io/IFE2018-EXAMS/college/designer/no2/index.html)     |
+|[CSS transition 和 CSS transform 配合制作动画](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/designer/no3)      |[查看](https://pwcong.github.io/IFE2018-EXAMS/college/designer/no3/index.html)     |

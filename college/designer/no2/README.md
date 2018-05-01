@@ -11,7 +11,8 @@
 
 [下载设计图源文件](http://jadyoap.bj.bcebos.com/ife%2F%E4%BB%BB%E5%8A%A1%E4%BA%8C%E8%AE%BE%E8%AE%A1%E7%A8%BF.psd)
 
-** 其中，你应当实现的变换效果已经在 `Psd` 中标明**
+**其中，你应当实现的变换效果已经在 `Psd` 中标明**
+
 ![img02](http://jadyoap.bj.bcebos.com/ife%2F%E4%BB%BB%E5%8A%A1%E4%BA%8C%E8%A6%81%E6%B1%82.png)
 
 ## 任务注意事项

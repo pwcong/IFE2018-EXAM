@@ -1,0 +1,25 @@
+{
+  "name": "ife2018-exams",
+  "version": "1.0.0",
+  "description": "百度前端技术学院，IFE2018 小测验",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "browser-sync start --server \"college\" --files \"college\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwcong/IFE2018-EXAMS.git"
+  },
+  "author": "Pwcong <pwcong@foxmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwcong/IFE2018-EXAMS/issues"
+  },
+  "homepage": "https://github.com/pwcong/IFE2018-EXAMS#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.1"
+  }
+}
