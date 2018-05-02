@@ -6,34 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>No.3 - CSS transition 和 CSS transform 配合制作动画</title>
-  <style>
-    html,
-    body {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
   <div class="container">
 
+    <div class="cat">
+      <div class="face">
+        <!-- 头发 -->
+        <div class="hair">
+          <div></div>
+        </div>
+        <!-- 眼睛 -->
+        <div class="eye-wrap">
+          <div class="eye left">
+            <div class="eye-circle">
+              <div class="eye-core"></div>
+            </div>
+            <div class="eye-bottom"></div>
+            <div class="face-red"></div>
+          </div>
+          <div class="eye right">
+            <div class="eye-circle">
+              <div class="eye-core"></div>
+            </div>
+            <div class="eye-bottom"></div>
+            <div class="face-red"></div>
+          </div>
+        </div>
+        <!-- 鼻子 -->
+        <div class="nose">
+        </div>
+        <!-- 嘴巴 -->
+        <div class="mouth-wrap">
+          <!-- <div class="mouth-top"></div> -->
+          <div class="mouth left"></div>
+          <div class="mouth right"></div>
+        </div>
+      </div>
+      <!-- 耳朵 -->
+      <div class="ear-wrap">
+        <div class="ear left"> </div>
+        <div class="ear right"> </div>
+      </div>
+
+    </div>
     <div class="doge">
 
       <div class="ears">
         <div class="ear ear-left"></div>
         <div class="ear ear-right"></div>
       </div>
-      <div class="head">
+      <div class="face">
         <div class="eyes">
           <div class="eye eye-left"></div>
           <div class="eye eye-right"></div>
@@ -43,6 +69,7 @@
       </div>
 
     </div>
+
 
   </div>
 
