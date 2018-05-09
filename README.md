@@ -7,6 +7,16 @@
 |课程名称      |预览            |
 |-------------|----------------|
 |[课程系列引导及准备工作](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no1_1)      |[查看](https://pwcong.github.io/IFE2018-EXAMS/college/mvvm/no1_1/dist/index.html)     |
+|[用webpack4 / parcel快速搭建开发san helloworld](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no1_2)      | |
+|[数据操作](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_1)      | |
+|[条件和循环](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_2)      | |
+|[样式控制](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_3)      | |
+|[事件处理](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_4)      | |
+|[表单实现Input、Checkbox组件](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_5)      | |
+|[插槽相关](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_6)      | |
+|[使用s-transition指令实现过渡动画](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_7_1)      | |
+|[基于san-transition的过渡动画](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_7_2)      | |
+|[组件实现加生命周期](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_8)      | |
 
 
 ## 设计师学院
