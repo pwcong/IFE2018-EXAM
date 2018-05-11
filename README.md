@@ -17,6 +17,15 @@
 |[使用s-transition指令实现过渡动画](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_7_1)      | |
 |[基于san-transition的过渡动画](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_7_2)      | |
 |[组件实现加生命周期](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no2_8)      | |
+|[用递归的方式实现级联组件](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no3_1)      | |
+|[日历组件](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no3_2)      | |
+|[表单验证封装](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no3_3)      | |
+|[Todo MVC](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no4_1)      | |
+|[与san-router结合实现Todo MVC](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no4_2)      | |
+|[结合san-router与san-store优化Todo MVC](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no4_3)      | |
+|[无限下拉的feed效果](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no4_4)      | |
+|[antd规范的table组件](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no4_5)      | |
+|[仿饿了么点餐页面](https://github.com/pwcong/IFE2018-EXAMS/tree/master/college/mvvm/no4_6)      | |
 
 
 ## 设计师学院
